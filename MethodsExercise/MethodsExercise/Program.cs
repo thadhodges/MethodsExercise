@@ -14,7 +14,7 @@ namespace MethodsExercise
             return num1 - num2;
         }
 
-        public static int Mulitiply(int num1, int num2)
+        public static decimal Mulitiply(int num1, int num2)
         {
             return num1 * num2;
         }
@@ -45,8 +45,18 @@ namespace MethodsExercise
                 return false;
             }
         }
+        public static decimal Percentage(int num1, int num2)
+        {
+            return (num1 / num2) * 100;
+        }
+
+
+
+
         static void Main(string[] args)
         {
+            Console.WriteLine(Percentage(1,2));
+
             Console.WriteLine(Addition(12, -34));
             Console.WriteLine(Addition(4, 9));
             Console.WriteLine(Subtraction(234, 43));
