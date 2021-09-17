@@ -56,7 +56,7 @@ namespace MethodsExercise
         static void Main(string[] args)
         {
             Console.WriteLine(Percentage(1,2));
-
+            //Need to research how to display a %//
             Console.WriteLine(Addition(12, -34));
             Console.WriteLine(Addition(4, 9));
             Console.WriteLine(Subtraction(234, 43));
