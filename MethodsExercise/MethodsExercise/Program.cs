@@ -50,7 +50,12 @@ namespace MethodsExercise
             return (num1 / num2) * 100;
         }
 
+        //public static int Max (num1, num2, num3)
+        //{
 
+
+
+        //}
 
 
         static void Main(string[] args)
