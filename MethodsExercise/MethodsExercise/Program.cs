@@ -7,7 +7,7 @@ namespace MethodsExercise
         public static int Addition(int num1, int num2)
         {
             return num1 + num2;
-            
+
         }
         public static int Subtraction(int num1, int num2)
         {
@@ -26,7 +26,7 @@ namespace MethodsExercise
 
         public static int Divide(int num1, int num2)
         {
-            return num1 / num2; 
+            return num1 / num2;
         }
 
         public static int Modulus(int num1, int num2)
@@ -56,8 +56,13 @@ namespace MethodsExercise
 
 
         //}
+        public static string SayHello(string name)
+        {
+            return ($"Hello, {name}, how are you today?");
 
 
+
+        }
         static void Main(string[] args)
         {
             Console.WriteLine(Percentage(1,2));
@@ -75,6 +80,7 @@ namespace MethodsExercise
             Console.WriteLine(Modulus(123456789, 1234));
             Console.WriteLine(Modulus(45, 9));
             Console.WriteLine(IsEven(345));
+            Console.WriteLine(SayHello("thad"));
 
 
             
