@@ -49,13 +49,6 @@ namespace MethodsExercise
         {
             return (num1 / num2) * 100;
         }
-
-        //public static int Max (num1, num2, num3)
-        //{
-
-
-
-        //}
         public static string SayHello(string name)
         {
             return ($"Hello, {name}, how are you today?");
