@@ -53,8 +53,6 @@ namespace MethodsExercise
         {
             return ($"Hello, {name}, how are you today?");
 
-
-
         }
         static void Main(string[] args)
         {
